@@ -30,8 +30,9 @@
     ];
 </script>
 
-<div class="lg:flex flex-grow items-center">
+<div class="bg-gray-200 p-4 relative flex flex-wrap flex-col items-center">
 {#each items as item}
     <Box { item }/>
+    <br>
 {/each}
 </div>
